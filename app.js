@@ -63,7 +63,7 @@ const busyButtons = new Set();
 let globalLoadingTimer = null;
 let successToastTimer = null;
 let liveFeedBusy = false;
-const BACKEND_API_BASE = "http://127.0.0.1:8787/api";
+const BACKEND_API_BASE = "https://api.dongyouji.help/api";
 
 const $ = (id) => document.getElementById(id);
 const log = (msg) => {
